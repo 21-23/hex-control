@@ -1,0 +1,17 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "Issue startup sequence to hex via websocket",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "stop": "node stop.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.26",
+    "websocket-as-promised": "^0.6.0"
+  }
+}
