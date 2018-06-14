@@ -13,5 +13,12 @@
   "dependencies": {
     "websocket": "^1.0.26",
     "websocket-as-promised": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-2123": "21-23/eslint-config-2123"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-2123"
   }
 }
